@@ -12,13 +12,13 @@ Usage
 
 ![Rdio Controller for Leap Motion](https://s3.amazonaws.com/kylewbanks/rdio_controller_screenshot.png "Rdio Controller for Leap Motion")
 
-For the time being, the GUI portion of the app (status bar icon) does nothing. All inputs are controller through the following gestures:
+For the time being, the GUI portion of the app (status bar icon) does nothing. All inputs are controlled through the following gestures:
 
 - **Swipe Up:** Increase the volume.
 - **Swipe Down:** Decrease the volume.
 - **Swipe Left:** Skip to previous track.
 - **Swipe Right:** Skip to next track.
-- **Swipe Forwards (Toward Screen):** Toggle play/pause.
+- **Swipe Forwards (Towards Screen):** Toggle play/pause.
 
 
 Boring Legal Stuff
