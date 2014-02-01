@@ -14,15 +14,15 @@
 		64413C9A1899A76E003462CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64413C991899A76E003462CD /* Images.xcassets */; };
 		64413CA11899A76E003462CD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64413CA01899A76E003462CD /* XCTest.framework */; };
 		64413CA21899A76E003462CD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64413C811899A76E003462CD /* Cocoa.framework */; };
-		64413CB61899A806003462CD /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 64413CB51899A806003462CD /* libLeap.dylib */; };
-		64413CBC1899A81B003462CD /* LeapObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64413CBB1899A81B003462CD /* LeapObjectiveC.mm */; };
-		64413CBE1899A9E8003462CD /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64413CB51899A806003462CD /* libLeap.dylib */; };
 		64413CC21899AB89003462CD /* RdioAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 64413CC11899AB89003462CD /* RdioAPI.m */; };
 		64413CC51899ADF0003462CD /* StatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64413CC41899ADF0003462CD /* StatusBarView.m */; };
 		64413CC81899B085003462CD /* rdio_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 64413CC71899B085003462CD /* rdio_icon.png */; };
 		64413CCA1899B2DB003462CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64413CC91899B2DB003462CD /* MainMenu.xib */; };
 		64413CCD1899BD68003462CD /* LeapMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64413CCC1899BD68003462CD /* LeapMotionManager.m */; };
 		64413CD3189D43C1003462CD /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64413CD2189D43C1003462CD /* ApplicationServices.framework */; };
+		64413CD8189DA378003462CD /* LeapObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64413CD7189DA378003462CD /* LeapObjectiveC.mm */; };
+		64413CDA189DA39B003462CD /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 64413CD9189DA39B003462CD /* libLeap.dylib */; };
+		64413CDB189DA3CD003462CD /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64413CD9189DA39B003462CD /* libLeap.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 6;
 			files = (
-				64413CBE1899A9E8003462CD /* libLeap.dylib in CopyFiles */,
+				64413CDB189DA3CD003462CD /* libLeap.dylib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,11 +63,6 @@
 		64413C991899A76E003462CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		64413C9F1899A76E003462CD /* Rdio Controller (Leap Motion)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rdio Controller (Leap Motion)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64413CA01899A76E003462CD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		64413CB51899A806003462CD /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libLeap.dylib; sourceTree = "<group>"; };
-		64413CB81899A81B003462CD /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leap.h; sourceTree = "<group>"; };
-		64413CB91899A81B003462CD /* LeapMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapMath.h; sourceTree = "<group>"; };
-		64413CBA1899A81B003462CD /* LeapObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapObjectiveC.h; sourceTree = "<group>"; };
-		64413CBB1899A81B003462CD /* LeapObjectiveC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LeapObjectiveC.mm; sourceTree = "<group>"; };
 		64413CC01899AB89003462CD /* RdioAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RdioAPI.h; sourceTree = "<group>"; };
 		64413CC11899AB89003462CD /* RdioAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RdioAPI.m; sourceTree = "<group>"; };
 		64413CC31899ADF0003462CD /* StatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusBarView.h; sourceTree = "<group>"; };
@@ -77,6 +72,11 @@
 		64413CCB1899BD68003462CD /* LeapMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapMotionManager.h; sourceTree = "<group>"; };
 		64413CCC1899BD68003462CD /* LeapMotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeapMotionManager.m; sourceTree = "<group>"; };
 		64413CD2189D43C1003462CD /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		64413CD4189DA378003462CD /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Leap.h; path = LeapSDK/Leap.h; sourceTree = "<group>"; };
+		64413CD5189DA378003462CD /* LeapMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeapMath.h; path = LeapSDK/LeapMath.h; sourceTree = "<group>"; };
+		64413CD6189DA378003462CD /* LeapObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeapObjectiveC.h; path = LeapSDK/LeapObjectiveC.h; sourceTree = "<group>"; };
+		64413CD7189DA378003462CD /* LeapObjectiveC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LeapObjectiveC.mm; path = LeapSDK/LeapObjectiveC.mm; sourceTree = "<group>"; };
+		64413CD9189DA39B003462CD /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLeap.dylib; path = LeapSDK/libLeap.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64413CDA189DA39B003462CD /* libLeap.dylib in Frameworks */,
 				64413CD3189D43C1003462CD /* ApplicationServices.framework in Frameworks */,
-				64413CB61899A806003462CD /* libLeap.dylib in Frameworks */,
 				64413C821899A76E003462CD /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				64413CD2189D43C1003462CD /* ApplicationServices.framework */,
-				64413CB51899A806003462CD /* libLeap.dylib */,
 				64413C811899A76E003462CD /* Cocoa.framework */,
 				64413CA01899A76E003462CD /* XCTest.framework */,
 				64413C831899A76E003462CD /* Other Frameworks */,
@@ -171,10 +170,11 @@
 		64413CB71899A80A003462CD /* LeapFiles */ = {
 			isa = PBXGroup;
 			children = (
-				64413CB81899A81B003462CD /* Leap.h */,
-				64413CB91899A81B003462CD /* LeapMath.h */,
-				64413CBA1899A81B003462CD /* LeapObjectiveC.h */,
-				64413CBB1899A81B003462CD /* LeapObjectiveC.mm */,
+				64413CD9189DA39B003462CD /* libLeap.dylib */,
+				64413CD4189DA378003462CD /* Leap.h */,
+				64413CD5189DA378003462CD /* LeapMath.h */,
+				64413CD6189DA378003462CD /* LeapObjectiveC.h */,
+				64413CD7189DA378003462CD /* LeapObjectiveC.mm */,
 			);
 			name = LeapFiles;
 			sourceTree = "<group>";
@@ -299,8 +299,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				64413CC21899AB89003462CD /* RdioAPI.m in Sources */,
+				64413CD8189DA378003462CD /* LeapObjectiveC.mm in Sources */,
 				64413CCD1899BD68003462CD /* LeapMotionManager.m in Sources */,
-				64413CBC1899A81B003462CD /* LeapObjectiveC.mm in Sources */,
 				64413CC51899ADF0003462CD /* StatusBarView.m in Sources */,
 				64413C951899A76E003462CD /* AppDelegate.m in Sources */,
 				64413C8E1899A76E003462CD /* main.m in Sources */,
@@ -416,6 +416,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/kylewbanks/Code/Rdio\\ Controller\\ (Leap\\ Motion)",
+					"/Users/kylewbanks/Code/Rdio\\ Controller\\ (Leap\\ Motion)/Rdio\\ Controller\\ (Leap\\ Motion)/LeapSDK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -434,6 +435,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/kylewbanks/Code/Rdio\\ Controller\\ (Leap\\ Motion)",
+					"/Users/kylewbanks/Code/Rdio\\ Controller\\ (Leap\\ Motion)/Rdio\\ Controller\\ (Leap\\ Motion)/LeapSDK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
