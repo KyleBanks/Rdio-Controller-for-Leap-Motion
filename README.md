@@ -3,8 +3,9 @@ Rdio Controller for Leap Motion
 
 A gesture based Rdio controller built for the Leap Motion, allowing you to play/pause, skip tracks, and change the volume through gestures.
 
-
 The app is written in Objective-C and uses the Leap Motion C++ SDK.
+
+You can get in touch with me for bug/feature requests on Twitter [@kylewbanks](https://twitter.com/kylewbanks) or on the web at [kylewbanks.com](http://kylewbanks.com).
 
 Usage
 =====
